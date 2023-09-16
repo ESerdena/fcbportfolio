@@ -1,0 +1,49 @@
+    * {
+        font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+    }
+    
+    body {
+        background-image: url("images/bg.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    h1 {
+        font-weight: 700;
+    }
+    
+    p {
+        font-weight: 500;
+    }
+    
+    h1,
+    p,
+    .btn {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        text-shadow: 1px 2px 4px rgb(110, 105, 112);
+    }
+    
+    #profile {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+    
+    #landing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn-bg {
+        background-image: linear-gradient(180deg, #40c4e2 5%, #b339f0 74%);
+        border-width: 0;
+    }
+    
+    .btn-bg:hover {
+        /* background-image: linear-gradient(180deg, #33a6c0 5%, #9f36d3 74%); */
+        color: white;
+        transform: scale(1.2);
+    }
